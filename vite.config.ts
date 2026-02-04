@@ -25,14 +25,19 @@ export default defineConfig({
     },
   },
   server: {
-    // hmr: false,
     port: 5175,
-    // fs: {
-    //   allow: [
-    //     searchForWorkspaceRoot(process.cwd()),
-    //     '../../hivemq-platform-sdk/control-center-frontend-sdk',
-    //     '../../hivemq-kafka-extension/kafka-control-center-frontend',
-    //   ],
-    // },
+    fs: {
+      // Allow Vite to serve files from workspace packages
+      allow: ['..'],
+    },
+    watch: {
+      // Watch workspace packages for changes
+      ignored: ['!**/packages/**', '**/node_modules/**'],
+    },
+  },
+  optimizeDeps: {
+    // CRITICAL: Exclude workspace packages from pre-bundling
+    // This enables hot-reload for ui-theme and ui-library
+    exclude: ['@hivemq/ui-theme', '@hivemq/ui-library'],
   },
 })
