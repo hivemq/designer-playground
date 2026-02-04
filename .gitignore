@@ -48,3 +48,4 @@ packages/*/tsconfig.tsbuildinfo
 # Temporary files
 *.tmp
 .temp/
+.npmrc
