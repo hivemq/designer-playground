@@ -18,6 +18,10 @@ A rapid prototyping environment for HiveMQ UI designers and developers to experi
 git clone --recursive git@github.com:hivemq/designer-playground.git
 cd designer-playground
 
+# Configure GitHub Packages (first time only)
+cp .npmrc.example .npmrc
+# Edit .npmrc and add your GitHub personal access token
+
 # Setup (first time only)
 pnpm setup
 
