@@ -1,0 +1,4 @@
+packages:
+  - 'packages/ui-theme/theme'     # ui-theme is a monorepo itself
+  - 'packages/ui-library'
+  # NOTE: frontend-toolkit is NOT a workspace package (not an npm package)
