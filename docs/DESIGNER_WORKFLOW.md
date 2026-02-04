@@ -34,7 +34,7 @@ This guide walks you through using designer-playground for rapid UI prototyping 
    ```
 
    This opens 3 watch processes:
-   - **APP** (cyan): Vite dev server at http://localhost:5175
+   - **APP** (cyan): Vite dev server at http://localhost:7272
    - **THEME** (magenta): ui-theme build watcher
    - **LIBRARY** (yellow): ui-library build watcher
 
@@ -70,7 +70,7 @@ This guide walks you through using designer-playground for rapid UI prototyping 
 
 3. **See instant feedback**
 
-   Within 1 second, your browser at http://localhost:5175 will update with the new color across all components!
+   Within 1 second, your browser at http://localhost:7272 will update with the new color across all components!
 
 4. **Experiment freely**
 

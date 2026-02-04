@@ -3,7 +3,7 @@
 echo "🚀 Starting designer-playground development environment..."
 echo ""
 echo "This will start 3 watch processes:"
-echo "  📱 APP     - Vite dev server (http://localhost:5175)"
+echo "  📱 APP     - Vite dev server (http://localhost:7272)"
 echo "  🎨 THEME   - ui-theme build watcher"
 echo "  📦 LIBRARY - ui-library build watcher"
 echo ""

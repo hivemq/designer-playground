@@ -1,2 +1,2 @@
-//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN_HERE
+//npm.pkg.github.com/:_authToken=ghp_YOUR_TOKEN_HERE
 @hivemq:registry=https://npm.pkg.github.com/

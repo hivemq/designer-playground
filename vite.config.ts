@@ -25,7 +25,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5175,
+    port: 7272,
     fs: {
       // Allow Vite to serve files from workspace packages
       allow: ['..'],

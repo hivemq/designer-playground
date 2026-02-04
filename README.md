@@ -29,7 +29,7 @@ pnpm setup
 pnpm dev
 ```
 
-That's it! The app will be running at **http://localhost:5175**
+That's it! The app will be running at **http://localhost:7272**
 
 ## 📦 What's Inside
 
