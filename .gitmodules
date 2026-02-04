@@ -1,0 +1,9 @@
+[submodule "packages/ui-theme"]
+	path = packages/ui-theme
+	url = git@github.com:hivemq/ui-theme.git
+[submodule "packages/ui-library"]
+	path = packages/ui-library
+	url = git@github.com:hivemq/ui-shell.git
+[submodule "packages/frontend-toolkit"]
+	path = packages/frontend-toolkit
+	url = git@github.com:hivemq/frontend-toolkit.git
