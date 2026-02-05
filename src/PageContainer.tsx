@@ -22,7 +22,7 @@ export function PageContainer({ children }: PageContainerProps) {
         <HStack gap={0} overflow="hidden">
           <Header.SidebarToggle />
           <Link to="/">
-            <Header.Logo src={hivemqBeeNeg} alt="HiveMQ Logo" title="Demo" pl={1} pr={4} />
+            <Header.Logo src={hivemqBeeNeg} alt="HiveMQ Logo" title="Designer Playground" pl={1} pr={4} />
           </Link>
         </HStack>
 
@@ -56,7 +56,7 @@ export function PageContainer({ children }: PageContainerProps) {
         <VStack flexGrow={2} justifyContent="end" pt={4}>
           <HStack justifyContent="space-around" gap={2} fontSize="sm">
             <Text m={0} color="secondary.500">
-              HiveMQ Demo
+              Designer Playground
             </Text>
           </HStack>
         </VStack>
