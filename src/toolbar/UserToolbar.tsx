@@ -16,7 +16,7 @@ export function UserToolbar() {
           <Text fontSize="1.2rem">
             {'Hello'}{' '}
             <Text fontWeight={600} as="b">
-              Max Mustermann
+              Happy Designer
             </Text>{' '}
             👋
           </Text>

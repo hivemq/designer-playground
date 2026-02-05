@@ -49,3 +49,4 @@ packages/*/tsconfig.tsbuildinfo
 *.tmp
 .temp/
 .npmrc
+.history
