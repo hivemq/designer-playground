@@ -10,10 +10,11 @@ git submodule update --init --recursive
 echo "✅ Submodules updated"
 echo ""
 
-# Checkout the Chakra v3 compatible version of ui-library
-echo "🔀 Checking out Chakra v3 compatible ui-library..."
+# Checkout the Chakra v3 compatible versions
+echo "🔀 Checking out Chakra v3 compatible package versions..."
+(cd packages/ui-theme && git checkout 1.3.1 2>/dev/null) || true
 (cd packages/ui-library && git checkout 2.0.0-rc.10 2>/dev/null) || true
-echo "✅ ui-library on Chakra v3"
+echo "✅ Packages on Chakra v3"
 echo ""
 
 # Relax engine requirements in workspace packages
