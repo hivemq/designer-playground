@@ -20,6 +20,10 @@ for (const p of ['packages/ui-theme/theme/package.json', 'packages/ui-library/pa
   const pkg = JSON.parse(fs.readFileSync(p, 'utf8'));
   pkg.engines = { node: '>=20' };
   delete pkg.packageManager;
+  // Ensure module field is at top level (not just in publishConfig)
+  if (pkg.publishConfig?.module && !pkg.module) {
+    pkg.module = pkg.publishConfig.module;
+  }
   fs.writeFileSync(p, JSON.stringify(pkg, null, 2) + '\n');
 }
 "
